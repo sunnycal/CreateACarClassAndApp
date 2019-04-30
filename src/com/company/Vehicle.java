@@ -6,7 +6,7 @@ public class Vehicle {
     private String color;
     private String make;
     private String model;
-    private int mpg;
+    private int mph;
 
     public Vehicle() {
     }
@@ -35,12 +35,12 @@ public class Vehicle {
         this.color = color;
     }
 
-    public int getMpg() {
-        return mpg;
+    public int getMph() {
+        return mph;
     }
 
-    public void setMpg(int mpg) {
-        this.mpg = mpg;
+    public void setMpg(int mph) {
+        this.mpg = mph;
     }
 }
 
