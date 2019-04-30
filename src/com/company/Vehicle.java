@@ -39,7 +39,7 @@ public class Vehicle {
         return mph;
     }
 
-    public void setMpg(int mph) {
+    public void setMph(int mph) {
         this.mpg = mph;
     }
 }
